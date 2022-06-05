@@ -79,17 +79,17 @@ global:
 
 # These parameters can be used to enable/disable deployment of subcharts
 deployMongoDB: true              
-deployAMF: true
-deployAUSF: true
+deployAMF: false
+deployAUSF: false
 deployN3IWF: false # default
 deployNRF: true              
 deployNSSF: false                 
 deployPCF: false
 deploySMF: false
-deployUDM: true
-deployUDR: true
+deployUDM: false
+deployUDR: false
 deployUPF: false
-deployWEBUI: true
+deployWEBUI: false
 
 # Disable the deployment of mongodb as an NRF subchart
 free5gc-nrf:
